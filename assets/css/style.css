@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    transition: 300ms;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    width: 40vw;
+    background-color: #b2d1ff;
+    padding: 30px 0px;
+    border-radius: 5px;
+}
+.box .title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 900;
+    margin: 50px 0px;
+}
+.box .btn{
+    text-align: center;
+}
+.box .btn .submit-btn{
+    background-color: #6499E9;
+    padding: 15px 30px; 
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+}
